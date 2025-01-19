@@ -1,0 +1,33 @@
+.bg-gradient {
+  background: linear-gradient(45deg, #1a1a1a, #2a2a2a);
+}
+
+pre {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 4px;
+  background: #1a1a1a;
+  color: #fff;
+  font-family: 'Monaco', 'Courier New', monospace;
+}
+
+code {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.token.function {
+  color: #61dafb;
+}
+
+.token.keyword {
+  color: #c678dd;
+}
+
+.token.string {
+  color: #98c379;
+}
+
+.token.punctuation {
+  color: #abb2bf;
+}
