@@ -1,13 +1,18 @@
 {
+  "name": "remotion-tech-video",
   "private": true,
+  "version": "1.0.0",
+  "description": "Dynamic tech video with code animations",
   "scripts": {
-    "dev": "slidev",
-    "build": "slidev build",
-    "export": "slidev export"
+    "start": "remotion studio src/index.jsx",
+    "build": "remotion render Video out/video.mp4"
   },
   "dependencies": {
-    "@slidev/cli": "latest",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@remotion/cli": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "prismjs": "^1.29.0",
+    "react-simple-code-editor": "^0.13.1"
   }
 }
